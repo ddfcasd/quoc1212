@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="270" viewBox="0 0 360 270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="360" height="270" rx="24" fill="url(#bg)"/>
+  
+  <g filter="url(#shadow)">
+    <rect x="70" y="50" width="220" height="130" rx="14" fill="#111827"/>
+    <rect x="86" y="66" width="188" height="98" rx="8" fill="url(#monGrad)"/>
+    <defs><linearGradient id="monGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"/><stop offset="100%" stop-color="#c084fc"/></linearGradient></defs>
+    <path d="M160 180h40l12 34h-64z" fill="#94a3b8"/>
+    <rect x="125" y="212" width="110" height="12" rx="6" fill="#cbd5e1"/>
+  </g>
+  <text x="180" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#111827">Monitor</text>
+</svg>

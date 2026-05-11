@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="270" viewBox="0 0 360 270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="360" height="270" rx="24" fill="url(#bg)"/>
+  
+  <g filter="url(#shadow)">
+    <rect x="135" y="42" width="90" height="176" rx="32" fill="url(#speakerGrad)"/>
+    <defs><linearGradient id="speakerGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#334155"/><stop offset="100%" stop-color="#94a3b8"/></linearGradient></defs>
+    <g stroke="rgba(255,255,255,.45)" stroke-width="3">
+      <line x1="154" y1="65" x2="154" y2="190"/><line x1="170" y1="65" x2="170" y2="190"/><line x1="186" y1="65" x2="186" y2="190"/><line x1="202" y1="65" x2="202" y2="190"/>
+    </g>
+    <rect x="160" y="190" width="40" height="10" rx="5" fill="#22c55e"/>
+  </g>
+  <text x="180" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#111827">Speaker</text>
+</svg>

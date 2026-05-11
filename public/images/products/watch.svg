@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="270" viewBox="0 0 360 270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="360" height="270" rx="24" fill="url(#bg)"/>
+  
+  <g filter="url(#shadow)">
+    <rect x="160" y="24" width="40" height="220" rx="20" fill="#cbd5e1"/>
+    <rect x="128" y="78" width="104" height="122" rx="30" fill="#111827"/>
+    <rect x="141" y="91" width="78" height="96" rx="22" fill="url(#watchGrad)"/>
+    <defs><linearGradient id="watchGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#38bdf8"/></linearGradient></defs>
+    <text x="180" y="147" text-anchor="middle" font-family="Arial" font-size="36" font-weight="900" fill="white">09</text>
+  </g>
+  <text x="180" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#111827">Smart Watch</text>
+</svg>
